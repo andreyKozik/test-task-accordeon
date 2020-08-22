@@ -1,0 +1,31 @@
+.v-enter {
+  margin-top: -70px;
+}
+.open-enter-active {
+  animation: slideIn 0.5s;
+}
+
+.open-leave {
+  margin-top: 0px;
+}
+.open-leave-active {
+  animation: slideOut 0.5s;
+}
+
+@keyframes slideIn {
+  0% {
+    margin-top: -150px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -150px;
+  }
+}

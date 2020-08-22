@@ -1,0 +1,35 @@
+.close {
+  width: 68px;
+  height: 68px;
+  border-radius: 100%;
+  border: 1px solid #e41579;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  animation: close linear 0.5s;
+  img {
+    @media (max-width: 767px) {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  @media (max-width: 767px) {
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+  }
+}
+.close:hover {
+  filter: drop-shadow(0px 0px 5px rgba(228, 21, 121, 0.6));
+}
+
+@keyframes close {
+  0% {
+    background-color: #e41579;
+  }
+  100% {
+    background-color: white;
+    transform: rotate(450deg);
+  }
+}

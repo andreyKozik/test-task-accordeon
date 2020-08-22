@@ -1,0 +1,11 @@
+p {
+  margin: 12px 0 4px 0px;
+  word-spacing: -0.5px;
+  @media (max-width: 1439px) {
+    margin: 12px 0 4px 0px;
+  }
+}
+span {
+  font-weight: bold;
+  color: #ff3f84;
+}
